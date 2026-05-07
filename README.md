@@ -11,7 +11,7 @@ Open the latest item in **Releases** and download the ZIP files you need.
 - `ESP32.zip` - Use this when flashing an ESP32 board. Includes the ESP32 firmware binary, bootloader, partitions, Windows flashing tool, and flashing readme.
 - `ESP8226.zip` - Use this when flashing an ESP8266/NodeMCU board. Includes the ESP8266 firmware binaries, NodeMCU PyFlasher, vendo data file, and flashing readme.
 - `FusionFi_MultiFast.zip` - Use this for the MultiFast hotspot web files and MikroTik scripts.
-- `SingleHotpot.zip` - Use this for the Single Hotpot package, including web files, scripts, and vendo data.
+- `SingleHotpot.zip` - Use this for the Single Hotpot package, including web files and vendo data.
 
 ## What's Inside?
 
@@ -63,10 +63,6 @@ SingleHotpot.zip
     ├── MikrotikScript/
     │   ├── OnLogin
     │   └── OnLogout
-    ├── Script/
-    │   ├── FusionfiSingle.rsc
-    │   ├── startup.rsc
-    │   └── haplite2 V7 Readme.txt
     └── flash/FusionFi_Single/
         ├── alogin.html
         ├── error.html
