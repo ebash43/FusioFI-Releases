@@ -13,6 +13,77 @@ Open the latest item in **Releases** and download the ZIP files you need.
 - `FusionFi_MultiFast.zip` - Use this for the MultiFast hotspot web files and MikroTik scripts.
 - `SingleHotpot.zip` - Use this for the Single Hotpot package, including web files, scripts, and vendo data.
 
+## What's Inside?
+
+```text
+ESP32.zip
+└── ESP32/
+    ├── Readme.md
+    ├── bootloader.bin
+    ├── partitions.bin
+    ├── firmware.bin
+    ├── fusionfi32.bin
+    ├── esptool.exe
+    └── start_flash.bat
+
+ESP8226.zip
+└── ESP8226/
+    ├── Readme.md
+    ├── firmware.bin
+    ├── firmware8226.bin
+    ├── VendoCentralized.data
+    └── NodeMCU-PyFlasher.exe
+
+FusionFi_MultiFast.zip
+└── FusionFi_MultiFast/
+    ├── README.md
+    ├── MikrotikScript/
+    │   ├── OnLogin
+    │   └── OnLogout
+    └── flash/FusionFi/
+        ├── alogin.html
+        ├── error.html
+        ├── login.html
+        ├── logout.html
+        ├── redirect.html
+        ├── rlogin.html
+        ├── status.html
+        └── assets/
+            ├── css/
+            ├── img/
+            ├── js/
+            ├── coin-received.mp3
+            ├── insertcoinbg.mp3
+            └── loading.svg
+
+SingleHotpot.zip
+└── SingleHotpot/
+    ├── README.md
+    ├── SingleVendo.data
+    ├── MikrotikScript/
+    │   ├── OnLogin
+    │   └── OnLogout
+    ├── Script/
+    │   ├── FusionfiSingle.rsc
+    │   ├── startup.rsc
+    │   └── haplite2 V7 Readme.txt
+    └── flash/FusionFi_Single/
+        ├── alogin.html
+        ├── error.html
+        ├── login.html
+        ├── logout.html
+        ├── redirect.html
+        ├── rlogin.html
+        ├── status.html
+        └── assets/
+            ├── css/
+            ├── img/
+            ├── js/
+            ├── coin-received.mp3
+            ├── insertcoinbg.mp3
+            └── loading.svg
+```
+
 ## Notes
 
 - `SingleHotpot` is the folder name used by the package.
