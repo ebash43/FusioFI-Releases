@@ -1,4 +1,4 @@
-# FusionFi v2026.07.13
+# FusionFi v2026.07.14
 
 Public release for both platforms. Downloads are grouped below — **MikroTik** (portals, NodeMCU bins, web flasher) and **OpenWrt** (router image, downgrade firmware, NodeMCU bins, desktop flasher).
 
@@ -51,8 +51,8 @@ its own random root password and license binding.
 |---|---|
 | `ReyeeOS-1.317-downgrade-EW1200G-PRO.tar.gz` | Stock ReyeeOS 1.317 — the tested downgrade path |
 | `openwrt-24.10.0-ramips-mt7621-ruijie_rg-ew1200g-pro-v1.1-squashfs-sysupgrade.bin` | Stock OpenWrt 24.10.0 |
-| `FusionFi-Flasher-0.7.8-win-x64.exe` | FusionFi Flasher — Windows (portable, no install) |
-| `FusionFi-Flasher-0.7.8-mac-arm64.dmg` | FusionFi Flasher — Mac (Apple Silicon; unsigned, right-click → Open first time) |
+| `FusionFi-Flasher-0.7.9-win-x64.exe` | FusionFi Flasher — Windows (portable, no install) |
+| `FusionFi-Flasher-0.7.9-mac-arm64.dmg` | FusionFi Flasher — Mac (Apple Silicon; unsigned, right-click → Open first time) |
 | `fusionfi-openwrt-esp32-app.bin` | FusionFi OpenWrt NodeMCU firmware — ESP32 |
 | `fusionfi-openwrt-esp8266.bin` | FusionFi OpenWrt NodeMCU firmware — ESP8266 |
 
@@ -67,7 +67,7 @@ its own random root password and license binding.
 4. **Install FusionFi:** plug WAN into internet, run the FusionFi Flasher
    (Windows exe or Mac dmg), enter your license key, set Router IP to
    `192.168.1.1`, and click **Flash FusionFi + Activate** (~3–4 min).
-   The unit comes up with the portal at `http://10.0.0.1/` and admin at
+   The unit comes up with the portal at `http://10.0.0.1/fusionfi/` and admin at
    `http://10.0.0.1/admin/`.
 5. **NodeMCU:** flash `fusionfi-openwrt-esp32-app.bin` or
    `fusionfi-openwrt-esp8266.bin` to the coin node with the flasher.
